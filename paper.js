@@ -20,7 +20,7 @@ class Paper{
         push();
         translate(pos.x, pos.y);
         imageMode(CENTER);
-        image(this.image, 0, 0, this.width, this.height);
+        image(this.image, 0, 0, 80, 80);
         pop();
     }
 }
